@@ -13,4 +13,4 @@ database: mongoose.mongo
 })
 
 //Command Handler
-bot.loadCommands(`./System/`)
+bot.loadCommands(`./Handler/`)
