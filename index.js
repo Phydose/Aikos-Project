@@ -19,4 +19,4 @@ const variables = require('./Others/Variables.js');
 bot.variables(variables);
 
 //Event Listeners Handler
-require('./Others/EventsListener')(bot)
+require('./Others/EventsListener.js')(bot)
