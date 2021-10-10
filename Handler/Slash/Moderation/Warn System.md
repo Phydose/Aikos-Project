@@ -1,4 +1,4 @@
-# v Function for register the slashes of Warn system!
+# Function for register the slashes of Warn system!
 # Eval this functions
 
 # Warn Slash Function
