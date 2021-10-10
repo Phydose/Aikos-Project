@@ -17,3 +17,6 @@ bot.loadCommands(`./Handler/`)
 //Variable Handler
 const variables = require('./Others/Variables.js');
 bot.variables(variables);
+
+//Event Listeners Handler
+require('./Others/EventsListener')(bot)
