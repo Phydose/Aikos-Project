@@ -2,7 +2,7 @@ const { configtoken } = require('./Others/config.json')
 const aoijs = require('aoi.js')
 const bot = new aoijs.Bot({
     token: configtoken,
-    prefix: ['$getServerVar[prefix]'],
+    prefix: ['<@$clientID>', '<@!$clientID>],
 })
 
 //Eventer
